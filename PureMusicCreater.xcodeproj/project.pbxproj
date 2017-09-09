@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		033424321F638BB300661435 /* WAVFilePakage.c in Sources */ = {isa = PBXBuildFile; fileRef = 033424301F638BB300661435 /* WAVFilePakage.c */; };
 		03C97C301F5FE3C70037C969 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C97C2F1F5FE3C70037C969 /* main.m */; };
 		03C97C331F5FE3C70037C969 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C97C321F5FE3C70037C969 /* AppDelegate.m */; };
 		03C97C361F5FE3C70037C969 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C97C351F5FE3C70037C969 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		033424301F638BB300661435 /* WAVFilePakage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = WAVFilePakage.c; sourceTree = "<group>"; };
+		033424311F638BB300661435 /* WAVFilePakage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAVFilePakage.h; sourceTree = "<group>"; };
 		03C97C2B1F5FE3C70037C969 /* PureMusicCreater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PureMusicCreater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C97C2F1F5FE3C70037C969 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		03C97C311F5FE3C70037C969 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +84,8 @@
 		03C97C2D1F5FE3C70037C969 /* PureMusicCreater */ = {
 			isa = PBXGroup;
 			children = (
+				033424301F638BB300661435 /* WAVFilePakage.c */,
+				033424311F638BB300661435 /* WAVFilePakage.h */,
 				03C97C311F5FE3C70037C969 /* AppDelegate.h */,
 				03C97C321F5FE3C70037C969 /* AppDelegate.m */,
 				03C97C341F5FE3C70037C969 /* ViewController.h */,
@@ -218,6 +223,7 @@
 				03C97C361F5FE3C70037C969 /* ViewController.m in Sources */,
 				03C97C331F5FE3C70037C969 /* AppDelegate.m in Sources */,
 				03C97C301F5FE3C70037C969 /* main.m in Sources */,
+				033424321F638BB300661435 /* WAVFilePakage.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +366,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZFH.PureMusicCreater;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -372,6 +379,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZFH.PureMusicCreater;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -420,6 +428,7 @@
 				03C97C4F1F5FE3C80037C969 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03C97C501F5FE3C80037C969 /* Build configuration list for PBXNativeTarget "PureMusicCreaterTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +437,7 @@
 				03C97C521F5FE3C80037C969 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
